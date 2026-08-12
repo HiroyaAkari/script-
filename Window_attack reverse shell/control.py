@@ -3,7 +3,7 @@ import threading
 from datetime import datetime
 from pathlib import Path
 
-HOST = "0.0.0.0"
+HOST = "89.238.156.245"
 PORT = 4444
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)

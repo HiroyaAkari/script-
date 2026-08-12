@@ -1,0 +1,9 @@
+window._origFetch = window.fetch;
+window.fetch = function(...a){
+  return window._origFetch(...a).then(r => { 
+    if (r.url && r.url.includes('auth/me') && r.status ===401) {
+     return new response('{"data":{"id":1, "full_name":"Password":"User":"role":[{"name":"admin"}]}}' {status: 200, headers:{'Content-Type':'application/json'}});
+     }
+return r;
+});
+}; 

